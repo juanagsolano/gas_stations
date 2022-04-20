@@ -1,6 +1,19 @@
 # Get gas station prices by location
 
-## **Introduction**
+ ## **Content**
+ 1. [Introduction](#introduction)
+     * [Info about data](#info-about-data)
+     * [License info](#license-info)
+ 2. [Files description](#files-descriptions)
+    * [File gas_stations_features.ipynb](#file-gasstationsfeaturesipynbgasstationsfeaturesipynb)
+    * [File gas_stations_address.ipynb](#file-gasstationsaddressipynbgasstationsaddressipynb)
+    * [File gas_stations_maps.ipynb](#file-gasstationsmapsipynbgasstationsmapsipynb)
+    * [File gas_stations_mysql.ipynb](#file-gasstationsmysqlipynbgasstationsmysqlipynb)
+ 3. [Python scripts](#python-scripts)
+
+<hr>
+
+## **1. Introduction**
 
 This notebook extract gas and diesel prices for all stations in Mexico and create a dataframe and map locations.
 
@@ -22,7 +35,9 @@ List prices of gas and diesel for station, XML file [https://bit.ly/2JNcTha](htt
 
 [https://datos.gob.mx/libreusomx](https://datos.gob.mx/libreusomx)
 
-## **Files descriptions**
+<hr>
+
+## **2. Files descriptions**
 
 ### **File *[gas_stations_features.ipynb](gas_stations_features.ipynb)***
 
@@ -68,7 +83,9 @@ This file creates a conection to mysql database and upload tables exported by pr
 
 ![mysql tables](/images/mysql_tables.JPG)
 
-## **Python scripts**
+<hr>
+
+## **3. Python scripts**
 
 Python scripts are for automate some process to implement an automatic process.
 
